@@ -5,10 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Netflix</title>
 		<link rel="stylesheet" href="css/style.css" />
-		<link
+    <!--font awesome-->
+    <link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-		/>
+    />
+
+    <!--own css-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
 	</head>
 	<body>
 		<div class="container">
@@ -42,7 +48,7 @@
 					</div>
 				</div>
 				<div class="banner">
-					<img src="images/banner.jpg" alt="" class="poster" />
+					<img src="images/banner-new.png" alt="" class="poster" />
 					<span class="subtitle">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum cumque
 						voluptatum ut placeat maiores! Minus quo
@@ -51,33 +57,13 @@
 						<button class="btn"><i class="fas fa-play"></i>Assistir</button>
 						<button class="btn"><i class="fas fa-plus"></i>Minha lista</button>
 					</div>
-				</div>
+        </div>
+        
 				<div class="category">
-					<span>Recomendados</span>
-					<div class="slider">
-						<div class="movie">
-							<img src="images/video_001.jpg" alt="" />
-						</div>
-						<div class="movie">
-							<a href="#"><img src="images/video_002.jpg" alt="" /></a>
-						</div>
-						<div class="movie">
-							<img src="images/video_003.jpg" alt="" />
-						</div>
-						<div class="movie">
-							<img src="images/video_004.jpg" alt="" />
-						</div>
-						<div class="movie">
-							<img src="images/video_005.jpg" alt="" />
-						</div>
-						<div class="movie">
-							<img src="images/video_001.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="category">
-					<span>Melhores</span>
-					<div class="slider">
+          <span>Recomendados</span>
+          <div class="slider">
+					<div class="owl-carousel owl-theme">
+            
 						<div class="movie">
 							<img src="images/video_002.jpg" alt="" />
 						</div>
@@ -95,9 +81,74 @@
 						</div>
 						<div class="movie">
 							<img src="images/video_002.jpg" alt="" />
-						</div>
+            </div>
+            </div>
 					</div>
-				</div>
+        </div>
+        
+				<div class="category">
+          <span>Melhores</span>
+          <div class="slider">
+					<div class="owl-carousel owl-theme">
+            
+						<div class="movie">
+							<img src="images/video_004.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/video_002.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/video_001.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/video_005.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/video_003.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/video_005.jpg" alt="" />
+            </div>
+            </div>
+					</div>
+        </div>
+        
+        <div class="category">
+          <span>Lançamentos</span>
+          <div class="slider">
+					<div class="owl-carousel owl-theme">
+            
+						<div class="movie">
+							<img src="images/mini1.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/mini10.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/mini2.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/mini3.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/mini4.jpg" alt="" />
+						</div>
+						<div class="movie">
+							<img src="images/mini5.jpg" alt="" />
+            </div>
+            <div class="movie">
+							<img src="images/mini6.jpg" alt="" />
+            </div>
+            <div class="movie">
+							<img src="images/mini7.jpg" alt="" />
+            </div>
+            <div class="movie">
+							<img src="images/mini8.jpg" alt="" />
+            </div>
+            </div>
+					</div>
+        </div>
+        
 				<div class="footer">
 					<div class="social">
 						<i class="fab fa-facebook-square"></i>
@@ -138,6 +189,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
+    </div>
+    
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 	</body>
 </html>
